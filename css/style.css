@@ -1,0 +1,124 @@
+/* Style sheet for Pencil and Order page */
+
+body {
+    background-color: #f1f2f5;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Sets all heading to font and weight */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+/* Adds padding to all sections */
+header, footer, section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    background-color: rgb(18, 18, 20); 
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: white;
+    width: 100%;
+}
+
+#history h2 {
+    font-size: 200%;
+}
+
+nav svg {
+    fill: white;
+    height: 1em;
+}
+
+#navbar {
+    margin-bottom: 0;
+} 
+
+nav a, nav a:visited {
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover, .menu:focus {
+    text-decoration: none;
+    color: #f08B06;
+    fill: #f08B06;
+}
+
+nav svg:focus, nav svg:hover {
+    fill: #f08B06;
+}
+
+@media (min-width: 768px)
+{
+    header {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #workshop-content h2, #workshop-content p {
+        text-align: left;
+    }
+
+    #workshop-content h2 {
+        font-size: 250%;
+    }
+}
+
+
+h1 {
+    font-size: 400%;
+}
+
+#tagline {
+    font-weight: 100;
+    max-width: 50%;
+}
+
+q {
+    display: block;
+    font-size: 120%;
+    font-style: italic;
+    padding-bottom: 1em;
+} 
+
+#footer {
+    border-top: 3px solid #583820;
+    font-size: 12px;
+}
+
+#footer i {
+    font-size: 200%;
+}
+
+#school {
+    float: right;
+}
+
+.logo {
+    max-height: 150px;
+    float: center;
+}
+
+section {
+    background: white; 
+}
+
+#skills {
+    background-color: #f1f2f5;
+}
+
+.col-md-2 {
+    text-align: center;
+}
